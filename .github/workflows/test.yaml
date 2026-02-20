@@ -15,3 +15,10 @@ jobs:
 
     - name: List files
       run: ls -la
+
+    - name: prime-cache-9abf99d
+      uses: actions/cache@v4
+      with:
+        key: cache-9abf99d
+        path: ~/.cache  # Caches a generic folder (works for demo)
+

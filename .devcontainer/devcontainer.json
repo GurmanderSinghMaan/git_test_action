@@ -1,18 +1,18 @@
 {
     "name": "ga2-89cc25",
     "features": {
-        "ghrc.io/devcontainers/features/python:1": {
-                "version": "3.12",
-                "installTools": true
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.12"
         }
-     },
-     "customizations": {
-         "vscode": {
-             "extensions": [
-                    "astral-sh.uv",
-                    "ms-python.python"
-                ]   
-            }
-        },
-    "postCreateCommand": "uv pip install fastapi" 
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "astral-sh.uv",
+                "ms-python.python"
+            ]
+        }
+    },
+    "postCreateCommand": "uv pip install fastapi"
 }
+

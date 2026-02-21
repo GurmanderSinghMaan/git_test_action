@@ -1,7 +1,10 @@
 {
     "name": "ga2-89cc25",
     "features": {
-        "ghrc.io/devcontainers/features/python:1": {}
+        "ghrc.io/devcontainers/features/python:1": {
+                "version": "3.12",
+                "installTools": true
+        }
      },
      "customizations": {
          "vscode": {
